@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "removeComments": true,
+    "declaration": true,
+    "declarationDir": "./dist/types/"
+  },
+  "exclude": [
+    "@types",
+    "node_modules",
+    "**/*.spec.ts",
+    "**/*.test.ts"
+  ]
+}

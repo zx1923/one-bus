@@ -1,0 +1,24 @@
+{
+  "name": "one-bus",
+  "version": "1.0.0",
+  "description": "A lightweight message subscription and distribution module",
+  "main": "lib/onebus.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zx1923/one-bus.git"
+  },
+  "author": "Sean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zx1923/one-bus/issues"
+  },
+  "homepage": "https://github.com/zx1923/one-bus#readme",
+  "typings": "types/index.d.ts",
+  "files": [
+    "lib",
+    "types"
+  ]
+}
