@@ -1,7 +1,7 @@
-const OneBue =  require('../dist/lib/onebus');
+const OneBus =  require('../dist/lib/onebus');
 
-OneBue.on('data', (data) => {
+OneBus.on('data', (data) => {
   console.log(data);
 });
 
-OneBue.emit('data', 'hello word');
+OneBus.emit('data', 'hello word');
